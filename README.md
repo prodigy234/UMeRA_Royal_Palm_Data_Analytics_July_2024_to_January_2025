@@ -5,6 +5,25 @@ This interactive Streamlit dashboard visualizes and analyzes investment data fro
 
 ---
 
+This well detailed Investment Analytics Dashboard which I developed for UMéRA can be accessed live on streamlit [Here](https://umerainvestors.streamlit.app/)
+
+---
+
+## 📬 Author
+
+**Gbenga Kajola**
+
+[LinkedIn](https://www.linkedin.com/in/kajolagbenga)
+
+[Certified_Data_Scientist](https://www.datacamp.com/certificate/DSA0012312825030)
+
+[Certified_Data_Analyst](https://www.datacamp.com/certificate/DAA0018583322187)
+
+[Certified_SQL_Database_Programmer](https://www.datacamp.com/certificate/SQA0019722049554)
+
+
+---
+
 ## 📊 Project Summary
 
 The Royal Palm Investment Dashboard imports, cleans, and transforms the Excel-based investment portfolio data, then presents it in a visually intuitive format using interactive charts, heatmaps, KPIs, and filters.
@@ -77,6 +96,8 @@ royal-palm-dashboard/
 ├── README.md                       # Project documentation
 ├── requirements.txt                # Python dependencies
 ├── ROYAL PALM RECEIPT & PORTFOLIO (2).xlsx   # Excel investment data
+├── analysis.ipynb                         # The first Jupyter Notebook
+├── analysis2.ipynb                         # The second Jupyter Notebook
 ├── UMéRA Royal Palm Data Analytics Report.docx  # Downloadable Word report
 └── my_image.jpg                    # Developer's profile image
 ```
@@ -96,11 +117,7 @@ royal-palm-dashboard/
 | **Pillow (PIL)**  | Image handling in Streamlit     |
 | **Openpyxl**      | Excel file support              |
 
----
 
-## 📸 Screenshots
-
-> Add screenshots of your dashboard in use to better illustrate functionality.
 
 ---
 
@@ -113,17 +130,6 @@ UMéRA Royal Palm Data Analytics Report.docx
 
 ---
 
-## 👤 About the Developer
-
-**Kajola Gbenga**
-
-📇 Certified Data Analyst | Certified Data Scientist | SQL Programmer  
-📧 k.gbenga234@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/kajolagbenga)  
-💻 [GitHub](https://github.com/prodigy234)  
-🌐 [Portfolio](https://kajolagbenga.netlify.app/)
-
----
 
 ## ✅ License
 
