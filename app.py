@@ -6,7 +6,7 @@ import plotly.express as px
 from PIL import Image
 
 # Page config
-st.set_page_config(page_title="Royal Palm Investment Dashboard", layout="wide")
+st.set_page_config(page_title="UMéRA Royal Palm Investment Dashboard", layout="wide")
 
 # Load Excel Data
 file_path = "ROYAL PALM RECEIPT & PORTFOLIO (2).xlsx"
@@ -38,14 +38,14 @@ filtered_df["amount_invested"] = pd.to_numeric(filtered_df["amount_invested"], e
 
 # Sidebar Filters
 with st.sidebar:
-    st.header("\U0001F4CA Filter Investment Data")
+    st.header("\U0001F4CA Filter UMéRA Investment Data")
     selected_months = st.multiselect("Select Month(s)", options=date_order, default=date_order)
     selected_lands = st.multiselect("Select Land Type(s)", options=filtered_df["land"].dropna().unique(), default=filtered_df["land"].dropna().unique())
 
 filtered = filtered_df[filtered_df["month_year"].isin(selected_months) & filtered_df["land"].isin(selected_lands)]
 
 # Title
-st.title("\U0001F334 Royal Palm Investment Portfolio Dashboard")
+st.title("\U0001F334 An Interactive UMéRA Royal Palm Investment Portfolio Dashboard")
 st.markdown("#### _Seven-Month Investment Analysis (July 2024 - January 2025)_")
 
 # KPIs
@@ -97,7 +97,7 @@ st.markdown("### \U0001F525 Heatmap of Total Amount Invested (Month vs Land Type
 plot_heatmap(filtered)
 
 # Word Report Download
-st.markdown("### \U0001F4DD Download Full Portfolio Analytics Report")
+st.markdown("### \U0001F4DD Download Full UMéRA Portfolio Analytics Report")
 with open("UMéRA Royal Palm Data Analytics Report.docx", "rb") as doc_file:
     st.download_button(
         label="\U0001F4E5 Download Full Word Report",
