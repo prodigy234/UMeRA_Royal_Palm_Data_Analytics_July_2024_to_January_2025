@@ -92,22 +92,22 @@ streamlit run main.py
 ```bash
 royal-palm-dashboard/
 │
-├── main.py                         # Main Streamlit app
-├── README.md                       # Project documentation
-├── requirements.txt                # Python dependencies
-├── ROYAL PALM RECEIPT & PORTFOLIO (2).xlsx   # Excel investment data
-├── analysis.ipynb                         # The first Jupyter Notebook
-├── analysis2.ipynb                         # The second Jupyter Notebook
-├── UMéRA Royal Palm Data Analytics Report.docx  # Downloadable Word report
-└── my_image.jpg                    # Developer's profile image
+├── main.py                                       # Main Streamlit app
+├── README.md                                     # Project documentation
+├── requirements.txt                              # Python dependencies
+├── ROYAL PALM RECEIPT & PORTFOLIO (2).xlsx       # Excel investment data
+├── analysis.ipynb                                # The first Jupyter Notebook
+├── analysis2.ipynb                               # The second Jupyter Notebook
+├── UMéRA Royal Palm Data Analytics Report.docx   # Downloadable Word report
+└── my_image.jpg                                  # Developer's profile image
 ```
 
 ---
 
 ## 🧠 Technologies Used
 
-| Tool/Library      | Purpose                        |
-|------------------|--------------------------------|
+| Tool/Library      | Purpose                         |
+|-------------------|---------------------------------|
 | **Python**        | Programming Language            |
 | **Streamlit**     | Web App Framework               |
 | **Pandas**        | Data Manipulation               |
@@ -123,21 +123,19 @@ royal-palm-dashboard/
 
 ## 📥 Report Download Feature
 
-The dashboard includes a button to download a full Word-format analytics report summarizing findings. Make sure to include a file named:
-```
-UMéRA Royal Palm Data Analytics Report.docx
-```
+The dashboard includes a button to download a full Word-format analytics report summarizing findings. 
+
 
 ---
 
+## 📬 Contact
+
+For feedback or collaborations, reach out at:
+
+📧 **k.gbenga234@gmail.com**
+
+---
 
 ## ✅ License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute it with proper attribution.
-
----
-
-## 📌 Note
-
-- Ensure all external files (Excel, image, Word doc) are in the correct format and properly named.
-- If deploying to Streamlit Cloud, remember to upload these supporting files as part of the repository.
