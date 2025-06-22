@@ -15,6 +15,8 @@ This well detailed Investment Analytics Dashboard which I developed for UMéRA c
 
 [LinkedIn](https://www.linkedin.com/in/kajolagbenga)
 
+[Portfolio](https://kajolagbenga.netlify.app)
+
 [Certified_Data_Scientist](https://www.datacamp.com/certificate/DSA0012312825030)
 
 [Certified_Data_Analyst](https://www.datacamp.com/certificate/DAA0018583322187)
